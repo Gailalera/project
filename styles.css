@@ -12,7 +12,7 @@ body,html {
 	}
 
 header{
-	width: 75%;
+	width: 100%;
 	height: 65px;
 	float: right;
 	background-color:#151a16;
@@ -40,7 +40,7 @@ a{
 	color: #ffffff;
 	text-decoration: none;
 	font-family:'Open Sans',sans-serif;
-	font size: 1.2vw;
+	font-size: large;
 	}
 
 a:hover{
@@ -127,10 +127,10 @@ body{
   background: #161716;
 }
 .slidershow{
-	margin-left: 190px;
+	  margin-left: 85px;
   	width: 1070px;
   	height: 640px;
-  	margin-top: 32px;
+  	margin-top: -25px;
   	float: right;
   	overflow: hidden;
 }
@@ -309,7 +309,7 @@ form{
   padding: 10px;
 }
 #name{
-  width: 100%:;
+  width: 100%;
   height: 100px;
 }
 .name{
@@ -537,9 +537,9 @@ button:hover{
     transition: .3s linear;
 }
 
-.card:hover .icon{
+/*.card:hover .icon{
     transform: scale(4);
-    opacity: 0;
+    opacity: 0;*/
 }
 
 .card-content h3,
@@ -549,6 +549,7 @@ button:hover{
     transform: translateX(-50%);
     font-size: 16px;
     opacity: 0;
+
 }
 
 .card-content h3{
